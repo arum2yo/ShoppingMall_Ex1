@@ -32,6 +32,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func configApperance(){
+        
+        UITabBar.appearance().tintColor = .black
+        UITabBar.appearance().isTranslucent = false //투명하세 안하겠따
+        
+        
+        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().isTranslucent = false
+    }
 
 }
 
